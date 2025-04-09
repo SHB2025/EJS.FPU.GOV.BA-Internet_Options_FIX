@@ -1,4 +1,9 @@
-# ejs.fpu.gov.ba_TrustedSite+ActiveX.ps1
+# Rješenje za pristup web stranicama koje zahtijevaju izmjenu postavki "Internet Options" u Internet Exploreru
+
+    Rješenje za pristup web stranicama koje zahtijevaju izmjenu postavki "Internet Options" u Internet Exploreru
+    Za pristup određenim web stranicama, poput FPU.GOV.BA, potrebno je:
+    - Dodati poddomenu u sekciju "Trusted Sites" unutar postavki "Internet Options".
+    - Aktivirati ActiveX kontrole kako bi stranica ispravno funkcionirala.
 
 # Skripta ejs.fpu.gov.ba_TrustedSite+ActiveX.ps1:
 🇧🇦 Bosanski (BS):
