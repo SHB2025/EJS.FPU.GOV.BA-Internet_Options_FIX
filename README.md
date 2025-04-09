@@ -4,7 +4,8 @@
     Za pristup određenim web stranicama, poput FPU.GOV.BA, potrebno je:
     - Dodati poddomenu u sekciju "Trusted Sites" unutar postavki "Internet Options".
     - Aktivirati ActiveX kontrole kako bi stranica ispravno funkcionirala.
-    
+
+# PREPORUČENO: Na Računaru pokrenuti POWERSHELL ISE, a zatim odabrati "New" i kopirati skirptu u prozor i pokrenuti klikom na zeleni gumb "Run Script (F5)"
 # PRIPREMILI SMO ZA VAS SKRIPTE KOJE ĆE AUTOMATSKI DEFINISATI POTREBNE POSTAVKE ZA PRISTUP NA ejs.fpu.gov.ba ILI SAJT PO VAŠOJ ŽELJI.
 
 Nadamo se da će vam koristiti i uspješno riješiti problem.
