@@ -5,7 +5,10 @@
     - Dodati poddomenu u sekciju "Trusted Sites" unutar postavki "Internet Options".
     - Aktivirati ActiveX kontrole kako bi stranica ispravno funkcionirala.
     
-# NUDIMO VAM SKRIPTE KOJE ĆE AUTOMATSKI DEFINISATI POTREBNE POSTAVKE ZA PRISTUP NA ejs.fpu.gov.ba ILI SAJT PO VAŠOJ ŽELJI.
+# PRIPREMILI SMO ZA VAS SKRIPTE KOJE ĆE AUTOMATSKI DEFINISATI POTREBNE POSTAVKE ZA PRISTUP NA ejs.fpu.gov.ba ILI SAJT PO VAŠOJ ŽELJI.
+
+Nadamo se da će vam koristiti i uspješno riješiti problem.
+Ipak za pokretanje skripte obratite se tehničkom osoblju ili administratoru.
 
 # Skripta ejs.fpu.gov.ba_TrustedSite+ActiveX.ps1:
 🇧🇦 Bosanski (BS):
