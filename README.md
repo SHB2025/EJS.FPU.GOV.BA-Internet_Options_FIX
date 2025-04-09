@@ -1,4 +1,4 @@
-# IE_TrustedSite-ActiveX
+# ejs.fpu.gov.ba_TrustedSite+ActiveX.ps1
 
 # Skripta ejs.fpu.gov.ba_TrustedSite+ActiveX.ps1:
 🇧🇦 Bosanski (BS):
@@ -26,3 +26,4 @@ Adds the entered domain or subdomain to Trusted Sites (Zone 2).
 Enables all major ActiveX controls needed for systems using older IE-based technologies.
 
 🧩 Ideal for anyone experiencing issues accessing services like EJS web application requiring fine-tuned Internet Options configuration.
+
