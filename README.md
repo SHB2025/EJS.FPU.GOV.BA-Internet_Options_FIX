@@ -1,7 +1,7 @@
 # IE_TrustedSite-ActiveX
 
 # Skripta ejs.fpu.gov.ba_TrustedSite+ActiveX.ps1:
-    # 🇧🇦 Bosanski (BS):
+🇧🇦 Bosanski (BS):
 🎯 PowerShell skripta za brzo dodavanje ejs.fpu.gov.ba u Trusted Sites i omogućavanje ActiveX kontrola
 
 Ova skripta je kreirana s ciljem da olakša korisnicima pristup servisima poput ejs.fpu.gov.ba, koji zahtijevaju određene sigurnosne postavke unutar Internet Options (Internet Explorer-a).
