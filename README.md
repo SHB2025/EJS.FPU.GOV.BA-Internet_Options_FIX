@@ -12,37 +12,43 @@
 Nadamo se da će vam koristiti i uspješno riješiti problem.
 Ipak za pokretanje skripte obratite se tehničkom osoblju ili administratoru.
 
-# Skripta ejs.fpu.gov.ba-Internet_Options-FIX.ps1:
-🇧🇦 Bosanski (BS):
-🎯 PowerShell skripta za brzo dodavanje ejs.fpu.gov.ba u Trusted Sites i omogućavanje ActiveX kontrola
+### **Opis skripte 1: ejs.fpu.gov.ba-Internet_Options-FIX.ps1**  
+Ova PowerShell skripta je dizajnirana za dodavanje domene *ejs.fpu.gov.ba* u Trusted Sites zonu Internet postavki Microsoft Windowsa. Osim toga, omogućuje ključne ActiveX kontrole za ovu zonu kako bi se osigurala kompatibilnost prilikom korištenja funkcionalnosti ove domene.
 
-Ova skripta je kreirana s ciljem da olakša korisnicima pristup servisima poput ejs.fpu.gov.ba, koji zahtijevaju određene sigurnosne postavke unutar Internet Options (Internet Explorer-a).
+#### **Glavni koraci skripte 1:**
+1. **Definisanje ciljne domene:**  
+   Skripta definira domenu *ejs.fpu.gov.ba* kao ciljnu domenu koju treba dodati u Trusted Sites zonu.
 
-🔐 Skripta automatski:
+2. **Kreiranje puta u registru za Trusted Sites:**  
+   Provjerava postoji li put u registru za ovu domenu unutar Trusted Sites zone (Zona 3). Ako ne postoji, automatski ga kreira.
 
-Dodaje unesenu domenu ili poddomenu u Trusted Sites (Zona 2).
+3. **Dodavanje domene u Trusted Sites zonu:**  
+   Dodaje odgovarajuću vrijednost u registar kako bi se domena prepoznala kao dio Trusted Sites zone.  
 
-Omogućava sve ključne ActiveX kontrole potrebne za rad web-aplikacija koje koriste stare IE tehnologije.
+4. **Omogućavanje ActiveX kontrola za Trusted Sites:**  
+   Skripta prilagođava specifične ActiveX postavke (npr. učitavanje kontrola i izvršavanje skripti) za Trusted Sites zonu kako bi omogućila funkcionalnost potrebnu za rad s domenom.
 
-🧩 Namijenjena je za sve korisnike koji imaju problema s pokretanjem EJS servisa koji zahtijeva konfiguraciju Internet Options postavki.
+5. **Davanje povratnih informacija korisniku:**  
+   Skripta ispisuje poruke koje jasno ukazuju na uspješnost dodavanja domene i omogućavanja ActiveX kontrola.
 
-💡 Napomena / Note:
+---
 
-Iako je Internet Explorer zastarjela tehnologija, ova skripta može pomoći u okruženjima gdje su ovi sistemi i dalje aktivni.
+### **Opis skripte 2: ejs.fpu.gov.ba-Internet_Options-ResetToDefault.ps1**  
+Ova PowerShell skripta omogućuje vraćanje postavki na tvorničke vrijednosti, uz uklanjanje domene *ejs.fpu.gov.ba* iz Trusted Sites zone. Korisna je za resetiranje sigurnosnih postavki u slučajevima kada više nije potrebno posebno prilagođavanje za ovu domenu.
 
-🇬🇧 English (EN):
-🎯 PowerShell script to quickly add ejs.fpu.gov.ba to Trusted Sites and enable ActiveX controls
+#### **Glavni koraci skripte 2:**
+1. **Definisanje ciljne domene:**  
+   Skripta identifikuje domenu *ejs.fpu.gov.ba* kao onu koja treba biti uklonjena iz Trusted Sites zone.
 
-This script was created to help users access government or legacy systems such as ejs.fpu.gov.ba that require specific security settings within Internet Options (Internet Explorer).
+2. **Provjera i brisanje domene iz Trusted Sites:**  
+   Provjerava postoji li put u registru koji odgovara domeni *ejs.fpu.gov.ba*. Ako postoji, uklanja ga zajedno sa svim njegovim postavkama.
 
-🔐 The script automatically:
+3. **Resetiranje specifičnih ActiveX postavki:**  
+   Vraća ključne ActiveX postavke za Trusted Sites zonu na njihove podrazumijevane vrijednosti (npr. onemogućavanje određenih kontrola ili postavljanje postavki na "Prompt").
 
-Adds the entered domain or subdomain to Trusted Sites (Zone 2).
+4. **Davanje povratnih informacija korisniku:**  
+   Skripta ispisuje poruke koje obavještavaju korisnika o uspješnom uklanjanju domene i resetiranju postavki.
 
-Enables all major ActiveX controls needed for systems using older IE-based technologies.
+---
 
-🧩 Ideal for anyone experiencing issues accessing services like EJS web application requiring fine-tuned Internet Options configuration.
-
-💡 Note:
-
-Although Internet Explorer is a deprecated technology, this script may help in environments where these systems are still active.
+Ovi opisi jasno objašnjavaju svrhu i svaki korak izvršenja skripti na način razumljiv korisnicima. Ako trebaš dodatne izmjene ili detalje, rado ću pomoći! 😊
