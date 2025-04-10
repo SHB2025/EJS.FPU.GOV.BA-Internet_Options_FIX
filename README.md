@@ -16,7 +16,8 @@ Ipak za pokretanje skripte obratite se tehničkom osoblju ili administratoru.
 
 ### **Opis skripte 1: ejs.fpu.gov.ba-Internet_Options-FIX.ps1**  
 
-Ova PowerShell skripta je dizajnirana za dodavanje domene *ejs.fpu.gov.ba* u Trusted Sites zonu Internet postavki Microsoft Windowsa. Osim toga, omogućuje ključne ActiveX kontrole za ovu zonu kako bi se osigurala kompatibilnost prilikom korištenja funkcionalnosti ove domene.
+Ova PowerShell skripta je dizajnirana za dodavanje domene *ejs.fpu.gov.ba* u Trusted Sites zonu Internet postavki Microsoft Windowsa. 
+Osim toga, omogućuje ključne ActiveX kontrole za ovu zonu kako bi se osigurala kompatibilnost prilikom korištenja funkcionalnosti ove domene.
 
 #### **Glavni koraci skripte 1:**
 
@@ -39,7 +40,8 @@ Ova PowerShell skripta je dizajnirana za dodavanje domene *ejs.fpu.gov.ba* u Tru
 
 ### **Opis skripte 2: ejs.fpu.gov.ba-Internet_Options-ResetToDefault.ps1**  
 
-Ova PowerShell skripta omogućuje vraćanje postavki na tvorničke vrijednosti, uz uklanjanje domene *ejs.fpu.gov.ba* iz Trusted Sites zone. Korisna je za resetiranje sigurnosnih postavki u slučajevima kada više nije potrebno posebno prilagođavanje za ovu domenu.
+Ova PowerShell skripta omogućuje vraćanje postavki na tvorničke vrijednosti, uz uklanjanje domene *ejs.fpu.gov.ba* iz Trusted Sites zone. 
+Korisna je za resetiranje sigurnosnih postavki u slučajevima kada više nije potrebno posebno prilagođavanje za ovu domenu.
 
 #### **Glavni koraci skripte 2:**
 
