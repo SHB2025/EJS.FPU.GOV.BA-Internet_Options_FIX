@@ -59,4 +59,4 @@ Korisna je za resetiranje sigurnosnih postavki u slučajevima kada više nije po
 
 ---
 
-Ovi opisi jasno objašnjavaju svrhu i svaki korak izvršenja skripti na način razumljiv korisnicima. Ako trebaš dodatne izmjene ili detalje, rado ću pomoći! 😊
+Opisi jasno objašnjavaju svrhu i svaki korak izvršenja skripti.
