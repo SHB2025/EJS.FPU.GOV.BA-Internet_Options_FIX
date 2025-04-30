@@ -1,3 +1,5 @@
+Video: https://youtu.be/euBrc0AMfVA
+
 # Rješenje za pristup web stranicama koje zahtijevaju izmjenu postavki "Internet Options" u Internet Exploreru
 
     Rješenje za pristup web stranicama koje zahtijevaju izmjenu postavki "Internet Options" u Internet Exploreru
