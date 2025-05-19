@@ -1,5 +1,7 @@
 Video: https://youtu.be/euBrc0AMfVA
 
+Ažurirano: 19.5.2025.
+
 # Rješenje za pristup web stranicama koje zahtijevaju izmjenu postavki "Internet Options" u Internet Exploreru
 
     Rješenje za pristup web stranicama koje zahtijevaju izmjenu postavki "Internet Options" u Internet Exploreru
